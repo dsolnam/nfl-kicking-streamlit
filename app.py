@@ -6,7 +6,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="NFL Kicking • Domes vs Outdoors", layout="wide")
 
-st.title("NFL Kicking — Domes vs Outdoors (2015–Present)")
+st.title("NFL Kicking — Domes vs Outdoors (2015–2019)")
 st.caption("Data: CSVs exported from your Kaggle notebook (nflfastR). Indoor = dome/closed; Outdoor = outdoors/open. FG distance filtered to 17–70 yds in preprocessing.")
 
 # ---------- Data loading: prefer repo files, fall back to uploads ----------
